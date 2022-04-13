@@ -22,7 +22,7 @@ public class CoinInnApiClientFactory {
     private String secret;
 
     /**
-     * Instantiates a new binance api client factory.
+     * Instantiates a new coininn api client factory.
      *
      * @param apiKey the API key
      * @param secret the Secret
@@ -41,7 +41,7 @@ public class CoinInnApiClientFactory {
      *
      * @param apiKey the API key
      * @param secret the Secret
-     * @return the binance api client factory
+     * @return the coininn api client factory
      */
     public static CoinInnApiClientFactory newInstance(String apiKey, String secret) {
         return new CoinInnApiClientFactory(apiKey, secret);
