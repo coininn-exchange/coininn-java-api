@@ -6,7 +6,6 @@
 
     <artifactId>coininn-java-api</artifactId>
     <version>1.0.0</version>
-
     <licenses>
         <license>
             <name>The MIT License</name>
