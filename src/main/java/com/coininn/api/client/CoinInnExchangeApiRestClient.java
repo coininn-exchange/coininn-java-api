@@ -4,7 +4,7 @@ import com.coininn.api.bean.exchange.NewOrder;
 import com.coininn.api.bean.exchange.OrderResponse;
 
 /**
- * CoinInn API facade, supporting synchronous/blocking access CoinInn's REST API.
+ * CoinInn API facade, CoinInn's REST API.
  */
 public interface CoinInnExchangeApiRestClient {
 
