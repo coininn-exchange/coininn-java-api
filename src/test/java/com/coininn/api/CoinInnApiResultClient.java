@@ -25,7 +25,7 @@ public class CoinInnApiResultClient {
 
     @Before
     public void before() {
-        CoinInnApiClientFactory factory = CoinInnApiClientFactory.newInstance("P7kDDT2Hh1xdX3Ik9Msn7w", "5RWDEafQDAxCAGNrxEcABCEwezUFFhwvqLwQB7YtNouud54rRf9kQocLUpGS1B4");
+        CoinInnApiClientFactory factory = CoinInnApiClientFactory.newInstance("API-KEY", "API-SECRET");
         coinInnExchangeApiRestClient = factory.newExchageRestClient();
         coinInnBalanceRestClient = factory.newBalanceRestClient();
     }
